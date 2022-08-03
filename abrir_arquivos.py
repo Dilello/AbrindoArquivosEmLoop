@@ -4,9 +4,9 @@ import pandas as pd
 #IMPORTANTE#
 #Criar uma pasta onde contenha APENAS os arquivos com dados brutos
 
-# ler todos os arquivos da pasta: 'Caminho/*.txt'
+# ler todos os arquivos da pasta: 'Caminho/*.csv'
 
-CaminhoDadoBruto = 'Documents/Caminho/*.txt'
+CaminhoDadoBruto = 'Documents/Caminho/*.csv'
 
 j = 0
 for i in glob.glob(CaminhoDadoBruto, recursive = True):
